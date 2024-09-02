@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+                   https://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
+
+    <changeSet logicalFilePath="insert-data" id="insert-data" author="admin">
+        <insert tableName="files">
+            <column name="content" value="file 1"/>
+            <column name="title" value="title 1"/>
+            <column name="creation_date" value="09.01.2024 15:15:15"/>
+            <column name="description" value="description 1"/>
+        </insert>
+        <insert tableName="files">
+            <column name="content" value="file 2"/>
+            <column name="title" value="title 2"/>
+            <column name="creation_date" value="09.01.2020 12:15:55"/>
+            <column name="description" value="description 2"/>
+        </insert>
+        <insert tableName="files">
+            <column name="content" value="file 3"/>
+            <column name="title" value="title 3"/>
+            <column name="creation_date" value="09.01.2024 10:00:00"/>
+            <column name="description" value="description 3"/>
+        </insert>
+        <insert tableName="files">
+            <column name="content" value="file 4"/>
+            <column name="title" value="title 4"/>
+            <column name="creation_date" value="01.18.2000 14:55:20"/>
+            <column name="description" value="description 4"/>
+        </insert>
+        <insert tableName="files">
+            <column name="content" value="file 5"/>
+            <column name="title" value="title 5"/>
+            <column name="creation_date" value="04.21.2007 12:15:16"/>
+            <column name="description" value="description 5"/>
+        </insert>
+        <insert tableName="files">
+            <column name="content" value="file 6"/>
+            <column name="title" value="title 6"/>
+            <column name="creation_date" value="08.09.1974 22:05:50"/>
+            <column name="description" value="description 6"/>
+        </insert>
+    </changeSet>
+</databaseChangeLog>
